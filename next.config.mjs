@@ -7,5 +7,9 @@ const nextConfig = {
     unoptimized: true,
   },
 }
-
+module.exports = {
+  images: {
+    unoptimized: true,
+  },
+}
 export default nextConfig
