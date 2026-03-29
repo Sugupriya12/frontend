@@ -1,5 +1,3 @@
-import localforage from "localforage";
-
 export async function syncData() {
   const queue = (await localforage.getItem("syncQueue")) || [];
 
