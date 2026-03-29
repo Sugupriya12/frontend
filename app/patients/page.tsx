@@ -1,9 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { useLanguage } from "@/context/LanguageContext"
 
-const { t } = useLanguage()
 const API_BASE = "http://localhost:5000"
 
 type Patient = {
