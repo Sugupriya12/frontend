@@ -1,4 +1,4 @@
-import localforage from "localforage";
+
 
 export async function apiFetch(url, options = {}) {
   const isOnline = navigator.onLine;
