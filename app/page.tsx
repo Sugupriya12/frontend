@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Heart, Phone, User, Stethoscope, Building2, ArrowLeft, WifiOff } from "lucide-react"
 import { useRouter } from "next/navigation"
-import localforage from "localforage"
+
 
 const API_BASE = "http://localhost:5000"
 
