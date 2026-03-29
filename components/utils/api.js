@@ -1,6 +1,6 @@
 import localforage from "localforage";
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://backendruralhealth1-2.onrender.com";
 
 export async function apiFetch(url, options = {}) {
   const isOnline = navigator.onLine;
