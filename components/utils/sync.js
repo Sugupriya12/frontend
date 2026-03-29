@@ -6,7 +6,7 @@ export async function syncData() {
   for (let item of queue) {
     if (item.status === "pending") {
       try {
-        await fetch(`http://localhost:5000${item.url}`, {
+        await fetch(`https://backendruralhealth1-2.onrender.com${item.url}`, {
           method: item.method,
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(item.body),
